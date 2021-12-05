@@ -1,0 +1,27 @@
+.text-input{
+    min-width: 300px;
+    min-height: 200px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
+
+button{
+    border-radius: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.SearchArea{
+    height: 110px;
+    width: 50%;
+    text-align:center;
+    padding: 20% 0%;
+    display: inline-block;   
+}
+
+
+
+
