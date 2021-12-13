@@ -1,15 +1,11 @@
-.card{
+
+#facts{
+    margin: auto;
     background-color: white;
-    height: 44em;
-    width: 20em;
-    margin-left: 30%;
-    margin-top: 10%;
-    padding: 10px;
-    border: 2px solid black;
-    line-height: 0.5;
+    line-height: .5;
 }
 
-.card>h1{
+#facts> div >h1{
     text-align: center;
     font-weight: 400;
     color: grey;
@@ -23,12 +19,6 @@
 .align_right{
     text-align: right;
     width: 5em;
-}
-
-#facts{
-    position: absolute;
-    display: inline-block;
-    margin: auto;
 }
 
 .width{

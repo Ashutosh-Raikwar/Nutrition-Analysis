@@ -11,16 +11,22 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: #B2EA70;
 }
 
+.area{
+    margin:auto;
+    text-align: center;
+}
 
+/* 
 .SearchArea{
     height: 110px;
     width: 50%;
     text-align:center;
     padding: 20% 0%;
     display: inline-block;   
-}
+} */
 
 
 

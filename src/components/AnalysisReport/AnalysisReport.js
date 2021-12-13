@@ -4,8 +4,7 @@ import './AnalysisReport.css'
 const AnalysisReport = ({ calories, totalFat, saturatedFat,cholesterol, sodium, totalCarboydrates,dietaryFiber,totalSugars,includesAddedSugars, proteins, VitaminD, calcium, iron, potassium }) => {
     return (
         <div id="facts">
-            <div className="card">
-                
+            <div >
                 <h1>Nutrition Facts</h1> <hr style={{height:"7px", backgroundColor:"black"}} />
                 
                 <span style={{fontSize:"20px"}}>Amount Per Serving
