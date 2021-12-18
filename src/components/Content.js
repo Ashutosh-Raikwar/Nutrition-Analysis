@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Searchfield from './Searchfield/Searchfield.js';
 import AnalysisReport from './AnalysisReport/AnalysisReport.js';
 import './Content.css';
-import image from '../image.jpg';
 
 class Content extends Component {
 url;
@@ -58,6 +57,8 @@ url;
       this.setState({dietaryFiber: Math.ceil(data.totalDaily.FIBTG?.quantity)})
       this.setState({totalSugars: Math.ceil(data.totalNutrients.SUGAR?.quantity)})
       // this.setState({includesAddedSugars: Math.ceil(data.totalNutrients.{"SUGAR.added"}.quantity)})
+      let as= Math.ceil(data.totalNutrients.SUGAR.added.quantity)
+      this.setState({includesAddedSugars:as})
       this.setState({proteins:Math.ceil(data.totalDaily.PROCNT?.quantity)})
       this.setState({VitaminD: Math.ceil(data.totalDaily.VITD?.quantity)})
       this.setState({calcium: Math.ceil(data.totalDaily.CA?.quantity)})

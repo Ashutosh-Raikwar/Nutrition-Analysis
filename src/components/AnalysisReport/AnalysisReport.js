@@ -88,6 +88,7 @@ const AnalysisReport = ({ calories, totalFat, saturatedFat,cholesterol, sodium, 
                         </tr><hr/>
                     </tbody>
                 </table>
+                {}
                 <p style={{fontSize:"13px", lineHeight:"2"}}>*Percent Daily Values are based on a 2000 calorie diet</p>
             </div>
         </div>
