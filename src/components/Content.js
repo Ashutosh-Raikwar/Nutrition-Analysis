@@ -41,6 +41,7 @@ url;
     this.url = this.url.replace(/ /g,"%20");
     console.log(this.url);
     this.getdata();
+    this.setState({display:true} )
   }
 
   getdata(){
@@ -64,8 +65,6 @@ url;
       this.setState({calcium: Math.ceil(data.totalDaily.CA?.quantity)})
       this.setState({iron: Math.ceil(data.totalDaily.FE?.quantity)})
       this.setState({potassium: Math.ceil(data.totalDaily.K?.quantity)})
-
-      this.setState({display:true} )
     })
     .catch(err => console.log(err))
   }
@@ -77,7 +76,7 @@ url;
         <Searchfield inputChange={this.onInputChange} onSearch={this.onSearch}/>
         
         
-        {this.state.display === true?
+        {this.state.display === true? 
         <AnalysisReport calories={this.state.calories}
         totalFat={this.state.totalFat}
         saturatedFat={this.state.saturatedFat}
