@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar =()=>{
     return(
-        <div style={{backgroundColor:"#C3B091", padding:"1px"}}>
-            <p style={{textAlign:"center",padding:".2px"}} className="fsize"><i>Nutrition 🍳 Analysis</i></p>
+        <div style={{backgroundColor:"#C3B091"}} className="mr-md-5 p-2 h2 rounded" >
+            <p className="text-center " ><i>Nutrition 🍳 Analysis</i></p>
         </div>
     )
 }
